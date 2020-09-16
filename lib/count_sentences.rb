@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
-    self.count.end_with?(".")
+    self.split(".")
+    self.count
   end
 end
